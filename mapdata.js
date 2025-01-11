@@ -17,7 +17,7 @@ var simplemaps_worldmap_mapdata={
     all_states_zoomable: "yes",
     
     //Location defaults
-    location_description: "Add location markers using latitude and longitude!",
+    location_description: "Location description",
     location_color: "#2041D4",
     location_opacity: 0.8,
     location_hover_opacity: 1,
@@ -1089,374 +1089,424 @@ var simplemaps_worldmap_mapdata={
       description: " "
     }
   },
-  locations: {},
-  labels: {
-    NH: {
-      parent_id: "NH",
-      x: "932",
-      y: "183",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    VT: {
-      parent_id: "VT",
-      x: "883",
-      y: "243",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    RI: {
-      parent_id: "RI",
-      x: "932",
-      y: "273",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    NJ: {
-      parent_id: "NJ",
-      x: "883",
-      y: "273",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    DE: {
-      parent_id: "DE",
-      x: "883",
-      y: "303",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    MD: {
-      parent_id: "MD",
-      x: "932",
-      y: "303",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    DC: {
-      parent_id: "DC",
-      x: "884",
-      y: "332",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    MA: {
-      parent_id: "MA",
-      x: "932",
-      y: "213",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    CT: {
-      parent_id: "CT",
-      x: "932",
-      y: "243",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    HI: {
-      parent_id: "HI",
-      x: 305,
-      y: 565,
-      pill: "yes"
-    },
-    AK: {
-      parent_id: "AK",
-      x: "113",
-      y: "495"
-    },
-    FL: {
-      parent_id: "FL",
-      x: "773",
-      y: "510"
-    },
-    ME: {
-      parent_id: "ME",
-      x: "893",
-      y: "85"
-    },
-    NY: {
-      parent_id: "NY",
-      x: "815",
-      y: "158"
-    },
-    PA: {
-      parent_id: "PA",
-      x: "786",
-      y: "210"
-    },
-    VA: {
-      parent_id: "VA",
-      x: "790",
-      y: "282"
-    },
-    WV: {
-      parent_id: "WV",
-      x: "744",
-      y: "270"
-    },
-    OH: {
-      parent_id: "OH",
-      x: "700",
-      y: "240"
-    },
-    IN: {
-      parent_id: "IN",
-      x: "650",
-      y: "250"
-    },
-    IL: {
-      parent_id: "IL",
-      x: "600",
-      y: "250"
-    },
-    WI: {
-      parent_id: "WI",
-      x: "575",
-      y: "155"
-    },
-    NC: {
-      parent_id: "NC",
-      x: "784",
-      y: "326"
-    },
-    TN: {
-      parent_id: "TN",
-      x: "655",
-      y: "340"
-    },
-    AR: {
-      parent_id: "AR",
-      x: "548",
-      y: "368"
-    },
-    MO: {
-      parent_id: "MO",
-      x: "548",
-      y: "293"
-    },
-    GA: {
-      parent_id: "GA",
-      x: "718",
-      y: "405"
-    },
-    SC: {
-      parent_id: "SC",
-      x: "760",
-      y: "371"
-    },
-    KY: {
-      parent_id: "KY",
-      x: "680",
-      y: "300"
-    },
-    AL: {
-      parent_id: "AL",
-      x: "655",
-      y: "405"
-    },
-    LA: {
-      parent_id: "LA",
-      x: "550",
-      y: "435"
-    },
-    MS: {
-      parent_id: "MS",
-      x: "600",
-      y: "405"
-    },
-    IA: {
-      parent_id: "IA",
-      x: "525",
-      y: "210"
-    },
-    MN: {
-      parent_id: "MN",
-      x: "506",
-      y: "124"
-    },
-    OK: {
-      parent_id: "OK",
-      x: "460",
-      y: "360"
-    },
-    TX: {
-      parent_id: "TX",
-      x: "425",
-      y: "435"
-    },
-    NM: {
-      parent_id: "NM",
-      x: "305",
-      y: "365"
-    },
-    KS: {
-      parent_id: "KS",
-      x: "445",
-      y: "290"
-    },
-    NE: {
-      parent_id: "NE",
-      x: "420",
-      y: "225"
-    },
-    SD: {
-      parent_id: "SD",
-      x: "413",
-      y: "160"
-    },
-    ND: {
-      parent_id: "ND",
-      x: "416",
-      y: "96"
-    },
-    WY: {
-      parent_id: "WY",
-      x: "300",
-      y: "180"
-    },
-    MT: {
-      parent_id: "MT",
-      x: "280",
-      y: "95"
-    },
-    CO: {
-      parent_id: "CO",
-      x: "320",
-      y: "275"
-    },
-    UT: {
-      parent_id: "UT",
-      x: "223",
-      y: "260"
-    },
-    AZ: {
-      parent_id: "AZ",
-      x: "205",
-      y: "360"
-    },
-    NV: {
-      parent_id: "NV",
-      x: "140",
-      y: "235"
-    },
-    OR: {
-      parent_id: "OR",
-      x: "100",
-      y: "120"
-    },
-    WA: {
-      parent_id: "WA",
-      x: "130",
-      y: "55"
-    },
-    ID: {
-      parent_id: "ID",
-      x: "200",
-      y: "150"
-    },
-    CA: {
-      parent_id: "CA",
-      x: "79",
-      y: "285"
-    },
-    MI: {
-      parent_id: "MI",
-      x: "663",
-      y: "185"
-    },
-    PR: {
-      parent_id: "PR",
-      x: "620",
-      y: "545"
-    },
-    GU: {
-      parent_id: "GU",
-      x: "550",
-      y: "540"
-    },
-    VI: {
-      parent_id: "VI",
-      x: "680",
-      y: "519"
-    },
-    MP: {
-      parent_id: "MP",
-      x: "570",
-      y: "575"
-    },
-    AS: {
-      parent_id: "AS",
-      x: "665",
-      y: "580"
+ locations: {
+    paris: {
+      name: "Paris",
+      lat: "48.866666670",
+      lng: "2.333333333"
     }
   },
+ labels: {},  
   legend: {
     entries: []
   },
-  regions: {},
-  data: {
+regions: {
+    "0": {
+      name: "North America",
+      states: [
+        "MX",
+        "CA",
+        "US",
+        "GL",
+        "BM"
+      ],
+      description: "19 %"
+    },
+    "1": {
+      name: "South America",
+      states: [
+        "EC",
+        "AR",
+        "VE",
+        "BR",
+        "CO",
+        "BO",
+        "PE",
+        "BZ",
+        "CL",
+        "CR",
+        "CU",
+        "DO",
+        "SV",
+        "GT",
+        "GY",
+        "GF",
+        "HN",
+        "NI",
+        "PA",
+        "PY",
+        "PR",
+        "SR",
+        "UY",
+        "JM",
+        "HT",
+        "BS",
+        "FK",
+        "AI",
+        "AG",
+        "AW",
+        "BB",
+        "VG",
+        "KY",
+        "DM",
+        "MQ",
+        "LC",
+        "VC",
+        "GD",
+        "GP",
+        "MS",
+        "TC",
+        "SX",
+        "MF",
+        "KN",
+        "CW"
+      ],
+      description: "42 %"
+    },
+    "2": {
+      name: "Europe",
+      states: [
+        "IT",
+        "NL",
+        "NO",
+        "DK",
+        "IE",
+        "GB",
+        "RO",
+        "DE",
+        "FR",
+        "AL",
+        "AM",
+        "AT",
+        "BY",
+        "BE",
+        "LU",
+        "BG",
+        "CZ",
+        "EE",
+        "GE",
+        "GR",
+        "HU",
+        "IS",
+        "LV",
+        "LT",
+        "MD",
+        "PL",
+        "PT",
+        "RS",
+        "SI",
+        "HR",
+        "BA",
+        "ME",
+        "MK",
+        "SK",
+        "ES",
+        "FI",
+        "SE",
+        "CH",
+        "TR",
+        "CY",
+        "UA",
+        "XK",
+        "MT",
+        "FO"
+      ],
+      description: "19 %"
+    },
+    "3": {
+      name: "Africa and the Middle East",
+      states: [
+        "QA",
+        "BH",
+        "SA",
+        "AE",
+        "SY",
+        "OM",
+        "KW",
+        "PK",
+        "AZ",
+        "AF",
+        "IR",
+        "IQ",
+        "IL",
+        "PS",
+        "JO",
+        "LB",
+        "YE",
+        "TJ",
+        "TM",
+        "UZ",
+        "KG",
+        "NE",
+        "AO",
+        "EG",
+        "TN",
+        "GA",
+        "DZ",
+        "LY",
+        "CG",
+        "GQ",
+        "BJ",
+        "BW",
+        "BF",
+        "BI",
+        "CM",
+        "CF",
+        "TD",
+        "CI",
+        "CD",
+        "DJ",
+        "ET",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "KE",
+        "LS",
+        "LR",
+        "MG",
+        "MW",
+        "ML",
+        "MA",
+        "MR",
+        "MZ",
+        "NA",
+        "NG",
+        "ER",
+        "RW",
+        "SN",
+        "SL",
+        "SO",
+        "ZA",
+        "SD",
+        "SS",
+        "SZ",
+        "TZ",
+        "TG",
+        "UG",
+        "EH",
+        "ZM",
+        "ZW",
+        "RE",
+        "KM",
+        "SC",
+        "MU",
+        "CV",
+        "IC",
+        "ST",
+        "YT"
+      ],
+      description: "81 %"
+    },
+    "4": {
+      name: "South Asia",
+      states: [
+        "SG",
+        "TW",
+        "IN",
+        "AU",
+        "MY",
+        "NP",
+        "NZ",
+        "TH",
+        "BN",
+        "JP",
+        "VN",
+        "LK",
+        "SB",
+        "FJ",
+        "BD",
+        "BT",
+        "KH",
+        "LA",
+        "MM",
+        "KP",
+        "PG",
+        "PH",
+        "KR",
+        "ID",
+        "CN",
+        "MV",
+        "NC",
+        "VU",
+        "NR"
+      ],
+      description: "18 %"
+    },
+    "5": {
+      name: "North Asia",
+      states: [
+        "MN",
+        "RU",
+        "KZ"
+      ],
+      description: "24 %"
+    }
+  },
+ data: {
     data: {
-      AK: "1457",
-      AL: "2342",
-      FL: "1409",
-      DE: "1568",
-      CT: "1378",
-      DC: "1826",
-      AR: "2241",
-      GA: "1839",
-      CO: "1314",
-      AZ: "1485",
-      CA: "1424",
-      HI: "1284",
-      NH: "1475",
-      ME: "1671",
-      NY: "1592",
-      NJ: "1528",
-      MD: "1558",
-      IN: "185",
-      IL: "1666",
-      NC: "1658",
-      MA: "1323",
-      MO: "1998",
-      KY: "2086",
-      LA: "224",
-      MS: "248",
-      IA: "1768",
-      MN: "1241",
-      NM: "1568",
-      KS: "1732",
-      NE: "1543",
-      ND: "155",
-      MT: "1659",
-      NV: "1968",
-      MI: "2063",
-      ID: "1563",
-      PA: "1734",
-      OH: "1939",
-      OK: "2571",
-      OR: "1454",
-      VT: "1651",
-      RI: "1526",
-      TN: "2183",
-      SC: "1777",
-      TX: "1723",
-      SD: "1582",
-      UT: "1594",
-      VA: "1592",
-      WV: "2095",
-      WI: "1666",
-      WY: "1571",
-      WA: "1427"
+      AF: "79",
+      AO: "81",
+      AL: "19",
+      AE: "55",
+      AR: "48",
+      AU: "18",
+      AT: "19",
+      BI: "81",
+      BE: "19",
+      BJ: "81",
+      BF: "81",
+      BD: "79",
+      BG: "19",
+      BH: "55",
+      BA: "19",
+      BY: "19",
+      BZ: "42",
+      BO: "42",
+      BR: "42",
+      BN: "24",
+      BT: "79",
+      BW: "81",
+      CF: "81",
+      CA: "19",
+      CL: "42",
+      CN: "24",
+      CI: "81",
+      CM: "81",
+      CD: "81",
+      CG: "81",
+      CO: "42",
+      CR: "42",
+      CU: "42",
+      DE: "19",
+      DJ: "81",
+      DK: "19",
+      DO: "42",
+      DZ: "55",
+      EC: "42",
+      EG: "55",
+      ER: "81",
+      EE: "19",
+      ET: "81",
+      FI: "19",
+      FJ: "18",
+      GA: "81",
+      GB: "19",
+      GH: "81",
+      GN: "81",
+      GM: "81",
+      GW: "81",
+      GQ: "81",
+      GR: "19",
+      GT: "42",
+      GY: "42",
+      HN: "42",
+      HT: "42",
+      HU: "19",
+      ID: "48",
+      IN: "48",
+      IE: "19",
+      IR: "55",
+      IQ: "55",
+      IS: "19",
+      IL: "55",
+      IT: "19",
+      JM: "42",
+      JO: "55",
+      JP: "24",
+      KZ: "79",
+      KE: "81",
+      KG: "79",
+      KH: "24",
+      KR: "24",
+      KW: "55",
+      LA: "24",
+      LB: "55",
+      LR: "81",
+      LY: "55",
+      LK: "79",
+      LS: "81",
+      LT: "19",
+      LU: "19",
+      LV: "19",
+      MA: "55",
+      MD: "19",
+      MG: "81",
+      MX: "42",
+      MK: "19",
+      ML: "81",
+      MM: "24",
+      ME: "19",
+      MN: "24",
+      MZ: "81",
+      MR: "81",
+      MW: "81",
+      MY: "24",
+      NA: "81",
+      NE: "81",
+      NG: "81",
+      NI: "42",
+      NL: "19",
+      NO: "19",
+      NP: "79",
+      NZ: "18",
+      OM: "55",
+      PK: "79",
+      PA: "42",
+      PE: "42",
+      PH: "24",
+      PG: "18",
+      PL: "19",
+      KP: "24",
+      PT: "19",
+      PY: "42",
+      PS: "55",
+      QA: "55",
+      RO: "19",
+      RU: "19",
+      RW: "81",
+      SA: "55",
+      SD: "81",
+      SS: "81",
+      SN: "81",
+      SL: "81",
+      SV: "42",
+      RS: "19",
+      SR: "42",
+      SK: "19",
+      SI: "19",
+      SE: "19",
+      SZ: "19",
+      SY: "55",
+      TD: "81",
+      TG: "81",
+      TH: "24",
+      TM: "79",
+      TL: "24",
+      TN: "55",
+      TR: "48",
+      TW: "24",
+      UG: "81",
+      UA: "19",
+      UY: "42",
+      US: "19",
+      UZ: "79",
+      VE: "42",
+      VN: "24",
+      VU: "18",
+      YE: "55",
+      ZA: "48",
+      ZM: "81",
+      ZW: "81",
+      SO: "81",
+      GF: "48",
+      FR: "19",
+      ES: "19",
+      AD: "19",
+      AG: "42",
+      BS: "42",
+      BB: "42",
+      KN: "42"
     }
   }
 };
