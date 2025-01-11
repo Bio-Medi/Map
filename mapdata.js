@@ -70,284 +70,1022 @@ var simplemaps_usmap_mapdata={
     location_image_url: ""
   },
   state_specific: {
-    HI: {
-      color: "#ffdaca",
-      name: "Hawaii",
-      description: "RATE: 1284 DEATHS: 2862"
+    AF: {
+      color: "#cc0000",
+      name: "Afghanistan",
+      description: "79 %"
     },
-    AK: {
-      color: "#ffb697",
-      name: "Alaska",
-      description: "RATE: 1457 DEATHS: 1013"
-    },
-    FL: {
-      color: "#ffdaca",
-      name: "Florida",
-      description: "RATE: 1409 DEATHS: 49877"
-    },
-    NH: {
-      color: "#ffb697",
-      name: "New Hampshire",
-      description: "RATE: 1475 DEATHS: 2951"
-    },
-    VT: {
-      color: "#ff9264",
-      name: "Vermont",
-      description: "RATE: 1651 DEATHS: 1589"
-    },
-    ME: {
-      color: "#ff6e31",
-      name: "Maine",
-      description: "RATE: 1671 DEATHS: 3592"
-    },
-    RI: {
-      color: "#ffb697",
-      name: "Rhode Island",
-      description: "RATE: 1526 DEATHS: 2369"
-    },
-    NY: {
-      color: "#ff9264",
-      name: "New York",
-      description: "RATE: 1592 DEATHS: 43237"
-    },
-    PA: {
-      color: "#ff6e31",
-      name: "Pennsylvania",
-      description: "RATE: 1734 DEATHS: 32522"
-    },
-    NJ: {
-      color: "#ffb697",
-      name: "New Jersey",
-      description: "RATE: 1528 DEATHS: 18707"
-    },
-    DE: {
-      color: "#ff9264",
-      name: "Delaware",
-      description: "RATE: 1568 DEATHS: 2220"
-    },
-    MD: {
-      color: "#ffb697",
-      name: "Maryland",
-      description: "RATE: 1558 DEATHS: 12086"
-    },
-    VA: {
-      color: "#ff9264",
-      name: "Virginia",
-      description: "RATE: 1592 DEATHS: 16902"
-    },
-    WV: {
-      color: "#fd4b00",
-      name: "West Virginia",
-      description: "RATE: 2095 DEATHS: 5399"
-    },
-    OH: {
-      color: "#fd4b00",
-      name: "Ohio",
-      description: "RATE: 1939 DEATHS: 30041"
-    },
-    IN: {
-      color: "#ffdaca",
-      name: "Indiana",
-      description: "RATE: 185 DEATHS: 15385"
-    },
-    IL: {
-      color: "#ff6e31",
-      name: "Illinois",
-      description: "RATE: 1666 DEATHS: 26781"
-    },
-    CT: {
-      color: "#ffdaca",
-      name: "Connecticut",
-      description: "RATE: 1378 DEATHS: 6899"
-    },
-    WI: {
-      color: "#ff6e31",
-      name: "Wisconsin",
-      description: "RATE: 1666 DEATHS: 13128"
-    },
-    NC: {
-      color: "#ff9264",
-      name: "North Carolina",
-      description: "RATE: 1658 DEATHS: 21763"
-    },
-    DC: {
-      color: "#ff6e31",
-      name: "District of Columbia",
-      description: "RATE: 1826 DEATHS: 1239"
-    },
-    MA: {
-      color: "#ffdaca",
-      name: "Massachusetts",
-      description: "RATE: 1323 DEATHS: 12427"
-    },
-    TN: {
-      color: "#fd4b00",
-      name: "Tennessee",
-      description: "RATE: 2183 DEATHS: 18727"
-    },
-    AR: {
-      color: "#fd4b00",
-      name: "Arkansas",
-      description: "RATE: 2241 DEATHS: 8664"
-    },
-    MO: {
-      color: "#fd4b00",
-      name: "Missouri",
-      description: "RATE: 1998 DEATHS: 16143"
-    },
-    GA: {
-      color: "#fd4b00",
-      name: "Georgia",
-      description: "RATE: 1839 DEATHS: 21728"
-    },
-    SC: {
-      color: "#ff6e31",
-      name: "South Carolina",
-      description: "RATE: 1777 DEATHS: 12038"
-    },
-    KY: {
-      color: "#fd4b00",
-      name: "Kentucky",
-      description: "RATE: 2086 DEATHS: 11654"
+    AO: {
+      color: "#990000",
+      name: "Angola",
+      description: "81 %"
     },
     AL: {
-      color: "#fd4b00",
-      name: "Alabama",
-      description: "RATE: 2342 DEATHS: 14958"
+      color: "#ff3333",
+      name: "Albania",
+      description: "19 %"
     },
-    LA: {
-      color: "#ffdaca",
-      name: "Louisiana",
-      description: "RATE: 224 DEATHS: 12284"
+    AE: {
+      color: "#cc0000",
+      name: "United Arab Emirates",
+      description: "55 %"
     },
-    MS: {
-      color: "#ffdaca",
-      name: "Mississippi",
-      description: "RATE: 248 DEATHS: 8858"
+    AR: {
+      color: "#ff0000",
+      name: "Argentina",
+      description: "48 %"
     },
-    IA: {
-      color: "#ff6e31",
-      name: "Iowa",
-      description: "RATE: 1768 DEATHS: 7786"
-    },
-    MN: {
-      color: "#ffdaca",
-      name: "Minnesota",
-      description: "RATE: 1241 DEATHS: 9175"
-    },
-    OK: {
-      color: "#fd4b00",
-      name: "Oklahoma",
-      description: "RATE: 2571 DEATHS: 12268"
-    },
-    TX: {
-      color: "#ff6e31",
-      name: "Texas",
-      description: "RATE: 1723 DEATHS: 50672"
-    },
-    NM: {
-      color: "#ff9264",
-      name: "New Mexico",
-      description: "RATE: 1568 DEATHS: 4369"
-    },
-    KS: {
-      color: "#ff6e31",
-      name: "Kansas",
-      description: "RATE: 1732 DEATHS: 6440"
-    },
-    NE: {
-      color: "#ffb697",
-      name: "Nebraska",
-      description: "RATE: 1543 DEATHS: 3804"
-    },
-    SD: {
-      color: "#ff9264",
-      name: "South Dakota",
-      description: "RATE: 1582 DEATHS: 1850"
-    },
-    ND: {
-      color: "#ffdaca",
-      name: "North Dakota",
-      description: "RATE: 155 DEATHS: 1538"
-    },
-    WY: {
-      color: "#ff9264",
-      name: "Wyoming",
-      description: "RATE: 1571 DEATHS: 1150"
-    },
-    MT: {
-      color: "#ff6e31",
-      name: "Montana",
-      description: "RATE: 1659 DEATHS: 2539"
-    },
-    CO: {
-      color: "#ffdaca",
-      name: "Colorado",
-      description: "RATE: 1314 DEATHS: 8389"
-    },
-    UT: {
-      color: "#ff9264",
-      name: "Utah",
-      description: "RATE: 1594 DEATHS: 4460"
-    },
-    AZ: {
-      color: "#ffb697",
-      name: "Arizona",
-      description: "RATE: 1485 DEATHS: 14593"
-    },
-    NV: {
-      color: "#fd4b00",
-      name: "Nevada",
-      description: "RATE: 1968 DEATHS: 7337"
-    },
-    OR: {
-      color: "#ffb697",
-      name: "Oregon",
-      description: "RATE: 1454 DEATHS: 8152"
-    },
-    WA: {
-      color: "#ffb697",
-      name: "Washington",
-      description: "RATE: 1427 DEATHS: 13218"
-    },
-    CA: {
-      color: "#ffb697",
-      name: "California",
-      description: "RATE: 1424 DEATHS: 66340"
-    },
-    MI: {
-      color: "#fd4b00",
-      name: "Michigan",
-      description: "RATE: 2063 DEATHS: 27266"
-    },
-    ID: {
-      color: "#ff9264",
-      name: "Idaho",
-      description: "RATE: 1563 DEATHS: 3491"
-    },
-    GU: {
-      hide: "yes",
-      name: "Guam",
+    AM: {
+      name: "Armenia",
       description: " "
     },
-    VI: {
-      hide: "yes",
-      name: "Virgin Islands",
+    AU: {
+      color: "#ff6666",
+      name: "Australia",
+      description: "18 %"
+    },
+    AT: {
+      color: "#ff3333",
+      name: "Austria",
+      description: "19 %"
+    },
+    AZ: {
+      name: "Azerbaijan",
+      description: " "
+    },
+    BI: {
+      color: "#990000",
+      name: "Burundi",
+      description: "81 %"
+    },
+    BE: {
+      color: "#ff3333",
+      name: "Belgium",
+      description: "19 %"
+    },
+    BJ: {
+      color: "#990000",
+      name: "Benin",
+      description: "81 %"
+    },
+    BF: {
+      color: "#990000",
+      name: "Burkina Faso",
+      description: "81 %"
+    },
+    BD: {
+      color: "#cc0000",
+      name: "Bangladesh",
+      description: "79 %"
+    },
+    BG: {
+      color: "#ff3333",
+      name: "Bulgaria",
+      description: "19 %"
+    },
+    BH: {
+      color: "#cc0000",
+      name: "Bahrain",
+      description: "55 %"
+    },
+    BA: {
+      color: "#ff3333",
+      name: "Bosnia and Herzegovina",
+      description: "19 %"
+    },
+    BY: {
+      color: "#ff3333",
+      name: "Belarus",
+      description: "19 %"
+    },
+    BZ: {
+      color: "#ff0000",
+      name: "Belize",
+      description: "42 %"
+    },
+    BO: {
+      color: "#ff0000",
+      name: "Bolivia",
+      description: "42 %"
+    },
+    BR: {
+      color: "#ff0000",
+      name: "Brazil",
+      description: "42 %"
+    },
+    BN: {
+      color: "#ff3333",
+      name: "Brunei Darussalam",
+      description: "24 %"
+    },
+    BT: {
+      color: "#cc0000",
+      name: "Bhutan",
+      description: "79 %"
+    },
+    BW: {
+      color: "#990000",
+      name: "Botswana",
+      description: "81 %"
+    },
+    CF: {
+      color: "#990000",
+      name: "Central African Republic",
+      description: "81 %"
+    },
+    CA: {
+      color: "#ff3333",
+      name: "Canada",
+      description: "19 %"
+    },
+    CH: {
+      name: "Switzerland",
+      description: " "
+    },
+    CL: {
+      color: "#ff0000",
+      name: "Chile",
+      description: "42 %"
+    },
+    CN: {
+      color: "#ff3333",
+      name: "China",
+      description: "24 %"
+    },
+    CI: {
+      color: "#990000",
+      name: "Côte d'Ivoire",
+      description: "81 %"
+    },
+    CM: {
+      color: "#990000",
+      name: "Cameroon",
+      description: "81 %"
+    },
+    CD: {
+      color: "#990000",
+      name: "Democratic Republic of the Congo",
+      description: "81 %"
+    },
+    CG: {
+      color: "#990000",
+      name: "Republic of Congo",
+      description: "81 %"
+    },
+    CO: {
+      color: "#ff0000",
+      name: "Colombia",
+      description: "42 %"
+    },
+    CR: {
+      color: "#ff0000",
+      name: "Costa Rica",
+      description: "42 %"
+    },
+    CU: {
+      color: "#ff0000",
+      name: "Cuba",
+      description: "42 %"
+    },
+    CZ: {
+      name: "Czech Republic",
+      description: " "
+    },
+    DE: {
+      color: "#ff3333",
+      name: "Germany",
+      description: "19 %"
+    },
+    DJ: {
+      color: "#990000",
+      name: "Djibouti",
+      description: "81 %"
+    },
+    DK: {
+      color: "#ff3333",
+      name: "Denmark",
+      description: "19 %"
+    },
+    DO: {
+      color: "#ff0000",
+      name: "Dominican Republic",
+      description: "42 %"
+    },
+    DZ: {
+      color: "#cc0000",
+      name: "Algeria",
+      description: "55 %"
+    },
+    EC: {
+      color: "#ff0000",
+      name: "Ecuador",
+      description: "42 %"
+    },
+    EG: {
+      color: "#cc0000",
+      name: "Egypt",
+      description: "55 %"
+    },
+    ER: {
+      color: "#990000",
+      name: "Eritrea",
+      description: "81 %"
+    },
+    EE: {
+      color: "#ff3333",
+      name: "Estonia",
+      description: "19 %"
+    },
+    ET: {
+      color: "#990000",
+      name: "Ethiopia",
+      description: "81 %"
+    },
+    FI: {
+      color: "#ff3333",
+      name: "Finland",
+      description: "19 %"
+    },
+    FJ: {
+      color: "#ff6666",
+      name: "Fiji",
+      description: "18 %"
+    },
+    GA: {
+      color: "#990000",
+      name: "Gabon",
+      description: "81 %"
+    },
+    GB: {
+      color: "#ff3333",
+      name: "United Kingdom",
+      description: "19 %"
+    },
+    GE: {
+      name: "Georgia",
+      description: " "
+    },
+    GH: {
+      color: "#990000",
+      name: "Ghana",
+      description: "81 %"
+    },
+    GN: {
+      color: "#990000",
+      name: "Guinea",
+      description: "81 %"
+    },
+    GM: {
+      color: "#990000",
+      name: "The Gambia",
+      description: "81 %"
+    },
+    GW: {
+      color: "#990000",
+      name: "Guinea-Bissau",
+      description: "81 %"
+    },
+    GQ: {
+      color: "#990000",
+      name: "Equatorial Guinea",
+      description: "81 %"
+    },
+    GR: {
+      color: "#ff3333",
+      name: "Greece",
+      description: "19 %"
+    },
+    GL: {
+      name: "Greenland",
+      description: " "
+    },
+    GT: {
+      color: "#ff0000",
+      name: "Guatemala",
+      description: "42 %"
+    },
+    GY: {
+      color: "#ff0000",
+      name: "Guyana",
+      description: "42 %"
+    },
+    HN: {
+      color: "#ff0000",
+      name: "Honduras",
+      description: "42 %"
+    },
+    HR: {
+      name: "Croatia",
+      description: " "
+    },
+    HT: {
+      color: "#ff0000",
+      name: "Haiti",
+      description: "42 %"
+    },
+    HU: {
+      color: "#ff3333",
+      name: "Hungary",
+      description: "19 %"
+    },
+    ID: {
+      color: "#ff0000",
+      name: "Indonesia",
+      description: "48 %"
+    },
+    IN: {
+      color: "#ff0000",
+      name: "India",
+      description: "48 %"
+    },
+    IE: {
+      color: "#ff3333",
+      name: "Ireland",
+      description: "19 %"
+    },
+    IR: {
+      color: "#cc0000",
+      name: "Iran",
+      description: "55 %"
+    },
+    IQ: {
+      color: "#cc0000",
+      name: "Iraq",
+      description: "55 %"
+    },
+    IS: {
+      color: "#ff3333",
+      name: "Iceland",
+      description: "19 %"
+    },
+    IL: {
+      color: "#cc0000",
+      name: "Israel",
+      description: "55 %"
+    },
+    IT: {
+      color: "#ff3333",
+      name: "Italy",
+      description: "19 %"
+    },
+    JM: {
+      color: "#ff0000",
+      name: "Jamaica",
+      description: "42 %"
+    },
+    JO: {
+      color: "#cc0000",
+      name: "Jordan",
+      description: "55 %"
+    },
+    JP: {
+      color: "#ff3333",
+      name: "Japan",
+      description: "24 %"
+    },
+    KZ: {
+      color: "#cc0000",
+      name: "Kazakhstan",
+      description: "79 %"
+    },
+    KE: {
+      color: "#990000",
+      name: "Kenya",
+      description: "81 %"
+    },
+    KG: {
+      color: "#cc0000",
+      name: "Kyrgyzstan",
+      description: "79 %"
+    },
+    KH: {
+      color: "#ff3333",
+      name: "Cambodia",
+      description: "24 %"
+    },
+    KR: {
+      color: "#ff3333",
+      name: "Republic of Korea",
+      description: "24 %"
+    },
+    XK: {
+      name: "Kosovo",
+      description: " "
+    },
+    KW: {
+      color: "#cc0000",
+      name: "Kuwait",
+      description: "55 %"
+    },
+    LA: {
+      color: "#ff3333",
+      name: "Lao PDR",
+      description: "24 %"
+    },
+    LB: {
+      color: "#cc0000",
+      name: "Lebanon",
+      description: "55 %"
+    },
+    LR: {
+      color: "#990000",
+      name: "Liberia",
+      description: "81 %"
+    },
+    LY: {
+      color: "#cc0000",
+      name: "Libya",
+      description: "55 %"
+    },
+    LK: {
+      color: "#cc0000",
+      name: "Sri Lanka",
+      description: "79 %"
+    },
+    LS: {
+      color: "#990000",
+      name: "Lesotho",
+      description: "81 %"
+    },
+    LT: {
+      color: "#ff3333",
+      name: "Lithuania",
+      description: "19 %"
+    },
+    LU: {
+      color: "#ff3333",
+      name: "Luxembourg",
+      description: "19 %"
+    },
+    LV: {
+      color: "#ff3333",
+      name: "Latvia",
+      description: "19 %"
+    },
+    MA: {
+      color: "#cc0000",
+      name: "Morocco",
+      description: "55 %"
+    },
+    MD: {
+      color: "#ff3333",
+      name: "Moldova",
+      description: "19 %"
+    },
+    MG: {
+      color: "#990000",
+      name: "Madagascar",
+      description: "81 5"
+    },
+    MX: {
+      color: "#ff0000",
+      name: "Mexico",
+      description: "42 %"
+    },
+    MK: {
+      color: "#ff3333",
+      name: "Macedonia",
+      description: "19 %"
+    },
+    ML: {
+      color: "#990000",
+      name: "Mali",
+      description: "81%"
+    },
+    MM: {
+      color: "#ff3333",
+      name: "Myanmar",
+      description: "24 %"
+    },
+    ME: {
+      color: "#ff3333",
+      name: "Montenegro",
+      description: "19 %"
+    },
+    MN: {
+      color: "#ff3333",
+      name: "Mongolia",
+      description: "24 %"
+    },
+    MZ: {
+      color: "#990000",
+      name: "Mozambique",
+      description: "81 %"
+    },
+    MR: {
+      color: "#990000",
+      name: "Mauritania",
+      description: "81 %"
+    },
+    MW: {
+      color: "#990000",
+      name: "Malawi",
+      description: "81 %"
+    },
+    MY: {
+      color: "#ff3333",
+      name: "Malaysia",
+      description: "24 %"
+    },
+    NA: {
+      color: "#990000",
+      name: "Namibia",
+      description: "81 %"
+    },
+    NE: {
+      color: "#990000",
+      name: "Niger",
+      description: "81 %"
+    },
+    NG: {
+      color: "#990000",
+      name: "Nigeria",
+      description: "81 %"
+    },
+    NI: {
+      color: "#ff0000",
+      name: "Nicaragua",
+      description: "42 %"
+    },
+    NL: {
+      color: "#ff3333",
+      name: "Netherlands",
+      description: "19  %"
+    },
+    NO: {
+      color: "#ff3333",
+      name: "Norway",
+      description: "19 %"
+    },
+    NP: {
+      color: "#cc0000",
+      name: "Nepal",
+      description: "79 %"
+    },
+    NZ: {
+      color: "#ff6666",
+      name: "New Zealand",
+      description: "18 %"
+    },
+    OM: {
+      color: "#cc0000",
+      name: "Oman",
+      description: "55 %"
+    },
+    PK: {
+      color: "#cc0000",
+      name: "Pakistan",
+      description: "79 %"
+    },
+    PA: {
+      color: "#ff0000",
+      name: "Panama",
+      description: "42 %"
+    },
+    PE: {
+      color: "#ff0000",
+      name: "Peru",
+      description: "42 %"
+    },
+    PH: {
+      color: "#ff3333",
+      name: "Philippines",
+      description: "24 $"
+    },
+    PG: {
+      color: "#ff6666",
+      name: "Papua New Guinea",
+      description: "18 %"
+    },
+    PL: {
+      color: "#ff3333",
+      name: "Poland",
+      description: "19 %"
+    },
+    KP: {
+      color: "#ff3333",
+      name: "Dem. Rep. Korea",
+      description: "24 %"
+    },
+    PT: {
+      color: "#ff3333",
+      name: "Portugal",
+      description: "19 %"
+    },
+    PY: {
+      color: "#ff0000",
+      name: "Paraguay",
+      description: "42 %"
+    },
+    PS: {
+      color: "#cc0000",
+      name: "Palestine",
+      description: "55 %"
+    },
+    QA: {
+      color: "#cc0000",
+      name: "Qatar",
+      description: "55 %"
+    },
+    RO: {
+      color: "#ff3333",
+      name: "Romania",
+      description: "19 %"
+    },
+    RU: {
+      color: "#ff3333",
+      name: "Russia",
+      description: "19 %"
+    },
+    RW: {
+      color: "#990000",
+      name: "Rwanda",
+      description: "81%"
+    },
+    EH: {
+      name: "Western Sahara",
+      description: " "
+    },
+    SA: {
+      color: "#cc0000",
+      name: "Saudi Arabia",
+      description: "55 %"
+    },
+    SD: {
+      color: "#990000",
+      name: "Sudan",
+      description: "81%"
+    },
+    SS: {
+      color: "#990000",
+      name: "South Sudan",
+      description: "81 %"
+    },
+    SN: {
+      color: "#990000",
+      name: "Senegal",
+      description: "81 %"
+    },
+    SL: {
+      color: "#990000",
+      name: "Sierra Leone",
+      description: "81 %"
+    },
+    SV: {
+      color: "#ff0000",
+      name: "El Salvador",
+      description: "42 %"
+    },
+    RS: {
+      color: "#ff3333",
+      name: "Serbia",
+      description: "19 %"
+    },
+    SR: {
+      color: "#ff0000",
+      name: "Suriname",
+      description: "42 %"
+    },
+    SK: {
+      color: "#ff3333",
+      name: "Slovakia",
+      description: "19 %"
+    },
+    SI: {
+      color: "#ff3333",
+      name: "Slovenia",
+      description: "19 %"
+    },
+    SE: {
+      color: "#ff3333",
+      name: "Sweden",
+      description: "19 %"
+    },
+    SZ: {
+      color: "#ff3333",
+      name: "Swaziland",
+      description: "19 %"
+    },
+    SY: {
+      color: "#cc0000",
+      name: "Syria",
+      description: "55 %"
+    },
+    TD: {
+      color: "#990000",
+      name: "Chad",
+      description: "81 %"
+    },
+    TG: {
+      color: "#990000",
+      name: "Togo",
+      description: "81 %"
+    },
+    TH: {
+      color: "#ff3333",
+      name: "Thailand",
+      description: "24 %"
+    },
+    TJ: {
+      name: "Tajikistan",
+      description: " "
+    },
+    TM: {
+      color: "#cc0000",
+      name: "Turkmenistan",
+      description: "79 %"
+    },
+    TL: {
+      color: "#ff3333",
+      name: "Timor-Leste",
+      description: "24 %"
+    },
+    TN: {
+      color: "#cc0000",
+      name: "Tunisia",
+      description: "55 %"
+    },
+    TR: {
+      color: "#ff0000",
+      name: "Turkey",
+      description: "48 %"
+    },
+    TW: {
+      color: "#ff3333",
+      name: "Taiwan",
+      description: "24 %"
+    },
+    TZ: {
+      name: "Tanzania",
+      description: " "
+    },
+    UG: {
+      color: "#990000",
+      name: "Uganda",
+      description: "81 %"
+    },
+    UA: {
+      color: "#ff3333",
+      name: "Ukraine",
+      description: "19 %"
+    },
+    UY: {
+      color: "#ff0000",
+      name: "Uruguay",
+      description: "42 %"
+    },
+    US: {
+      color: "#ff3333",
+      name: "United States",
+      description: "19%"
+    },
+    UZ: {
+      color: "#cc0000",
+      name: "Uzbekistan",
+      description: "79 %"
+    },
+    VE: {
+      color: "#ff0000",
+      name: "Venezuela",
+      description: "42 %"
+    },
+    VN: {
+      color: "#ff3333",
+      name: "Vietnam",
+      description: "24 %"
+    },
+    VU: {
+      color: "#ff6666",
+      name: "Vanuatu",
+      description: "18 %"
+    },
+    YE: {
+      color: "#cc0000",
+      name: "Yemen",
+      description: "55 %"
+    },
+    ZA: {
+      color: "#ff0000",
+      name: "South Africa",
+      description: "48 %"
+    },
+    ZM: {
+      color: "#990000",
+      name: "Zambia",
+      description: "81 %"
+    },
+    ZW: {
+      color: "#990000",
+      name: "Zimbabwe",
+      description: "81 %"
+    },
+    SO: {
+      color: "#990000",
+      name: "Somalia",
+      description: "81 %"
+    },
+    GF: {
+      color: "#ff0000",
+      name: "France",
+      description: "48 %"
+    },
+    FR: {
+      color: "#ff3333",
+      name: "France",
+      description: "19 %"
+    },
+    ES: {
+      color: "#ff3333",
+      name: "Spain",
+      description: "19 %"
+    },
+    AW: {
+      name: "Aruba",
+      description: " "
+    },
+    AI: {
+      name: "Anguilla",
+      description: " "
+    },
+    AD: {
+      color: "#ff3333",
+      name: "Andorra",
+      description: "19 %"
+    },
+    AG: {
+      color: "#ff0000",
+      name: "Antigua and Barbuda",
+      description: "42%"
+    },
+    BS: {
+      color: "#ff0000",
+      name: "Bahamas",
+      description: "42 %"
+    },
+    BM: {
+      name: "Bermuda",
+      description: " "
+    },
+    BB: {
+      color: "#ff0000",
+      name: "Barbados",
+      description: "42 %"
+    },
+    KM: {
+      name: "Comoros",
+      description: " "
+    },
+    CV: {
+      name: "Cape Verde",
+      description: " "
+    },
+    KY: {
+      name: "Cayman Islands",
+      description: " "
+    },
+    DM: {
+      name: "Dominica",
+      description: " "
+    },
+    FK: {
+      name: "Falkland Islands",
+      description: " "
+    },
+    FO: {
+      name: "Faeroe Islands",
+      description: " "
+    },
+    GD: {
+      name: "Grenada",
+      description: " "
+    },
+    HK: {
+      name: "Hong Kong",
+      description: " "
+    },
+    KN: {
+      color: "#ff0000",
+      name: "Saint Kitts and Nevis",
+      description: "42 %"
+    },
+    LC: {
+      name: "Saint Lucia",
+      description: " "
+    },
+    LI: {
+      name: "Liechtenstein",
+      description: " "
+    },
+    MF: {
+      name: "Saint Martin (French)",
+      description: " "
+    },
+    MV: {
+      name: "Maldives",
+      description: " "
+    },
+    MT: {
+      name: "Malta",
+      description: " "
+    },
+    MS: {
+      name: "Montserrat",
+      description: " "
+    },
+    MU: {
+      name: "Mauritius",
+      description: " "
+    },
+    NC: {
+      name: "New Caledonia",
+      description: " "
+    },
+    NR: {
+      name: "Nauru",
+      description: " "
+    },
+    PN: {
+      name: "Pitcairn Islands",
       description: " "
     },
     PR: {
-      hide: "yes",
       name: "Puerto Rico",
       description: " "
     },
-    MP: {
-      hide: "yes",
-      name: "Northern Mariana Islands",
+    PF: {
+      name: "French Polynesia",
       description: " "
     },
-    AS: {
-      hide: "yes",
-      name: "American Samoa",
+    SG: {
+      name: "Singapore",
+      description: " "
+    },
+    SB: {
+      name: "Solomon Islands",
+      description: " "
+    },
+    ST: {
+      name: "São Tomé and Principe",
+      description: " "
+    },
+    SX: {
+      name: "Saint Martin (Dutch)",
+      description: " "
+    },
+    SC: {
+      name: "Seychelles",
+      description: " "
+    },
+    TC: {
+      name: "Turks and Caicos Islands",
+      description: " "
+    },
+    TO: {
+      name: "Tonga",
+      description: " "
+    },
+    TT: {
+      name: "Trinidad and Tobago",
+      description: " "
+    },
+    VC: {
+      name: "Saint Vincent and the Grenadines",
+      description: " "
+    },
+    VG: {
+      name: "British Virgin Islands",
+      description: " "
+    },
+    VI: {
+      name: "United States Virgin Islands",
+      description: " "
+    },
+    CY: {
+      name: "Cyprus",
+      description: " "
+    },
+    RE: {
+      name: "Reunion (France)",
+      description: " "
+    },
+    YT: {
+      name: "Mayotte (France)",
+      description: " "
+    },
+    MQ: {
+      name: "Martinique (France)",
+      description: " "
+    },
+    GP: {
+      name: "Guadeloupe (France)",
+      description: " "
+    },
+    CW: {
+      name: "Curaco (Netherlands)",
+      description: " "
+    },
+    IC: {
+      name: "Canary Islands (Spain)",
       description: " "
     }
   },
