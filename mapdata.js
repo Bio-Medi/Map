@@ -93,7 +93,7 @@ var simplemaps_worldmap_mapdata={
     AR: {
       color: "#ff0000",
       name: "Argentina",
-      description: "48 %"
+      description: "40 %"
     },
     AM: {
       name: "Armenia",
